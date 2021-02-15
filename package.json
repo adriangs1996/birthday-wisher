@@ -1,0 +1,36 @@
+{
+  "name": "birthday-wisher",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://someshkar.github.io/birthday-wisher",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "mdbreact": "^5.0.1",
+    "prop-types": "^15.6.2",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.3",
+    "react-confetti": "^2.3.0",
+    "react-scripts": "^3.3.0",
+    "react-sizeme": "^2.5.2",
+    "styled-components": "^4.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "deploy": "react-scripts build && gh-pages --dist build --branch gh-pages",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
